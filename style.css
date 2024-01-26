@@ -1,0 +1,68 @@
+.btn-color {
+  background-color: #b68c5a;
+  border-radius: 8px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  color: white;
+  padding: 19px 29px;
+}
+header {
+  margin-top: 65px;
+  height: 550px;
+  border-radius: 8px;
+  background: linear-gradient(180deg, #111 0%, rgba(17, 17, 17, 0) 100%),
+    url("./images/banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bnrtitle {
+  color: #fff;
+  text-align: center;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 85px;
+}
+.bnrcontent {
+  color: var(--Dark-06, #e7e7e7);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.formbtn {
+  background-color: #b68c5a;
+  color: white;
+  border-radius: 8px;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 600;
+  width: 150px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .bnrtitle {
+        font-size: 50px;
+        line-height: 65px;
+    }
+    .bnrcontent {
+        margin-top: 20px;
+    }
+    form {
+        margin-top: 20px;
+    }
+}
