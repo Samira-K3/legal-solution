@@ -7,6 +7,9 @@
   color: white;
   padding: 19px 29px;
 }
+li {
+  list-style-type: none;
+}
 header {
   margin-top: 65px;
   height: 550px;
@@ -46,23 +49,85 @@ header {
   font-weight: 600;
   width: 150px;
 }
+.cardimg {
+  width: 75px;
+  height: 73px;
+  position: relative;
+  left: 150px;
+}
+.commintitle {
+  color: var(--Dark-02, #414040);
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+}
+.commonparagraph {
+  color: var(--Dark-03, #707070);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+#carouselExample {
+  border-radius: 8px;
+}
+.faqimg {
+  width: 60%;
+}
+.accordion {
+  background: var(--Dark-07, #F3F3F3);
+}
+.accordion-item {
+  margin-top: 20px;
+}
 
-
-
-
+.faqimg {
+  width: 60%;
+}
+footer.footer {
+  background-color: var(--Dark-01, #111);
+  color: white;
+  height: 506px;
+}
+.footercnt {
+  position: relative;
+  margin-left: 40px;
+  top: 200px;
+  left: 100px;
+}
+.footertitle {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.footerp {
+  color: var(--Dark-05, #CFCFCF);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
 
 
 
 
 @media screen and (max-width: 600px) {
-    .bnrtitle {
-        font-size: 50px;
-        line-height: 65px;
-    }
-    .bnrcontent {
-        margin-top: 20px;
-    }
-    form {
-        margin-top: 20px;
-    }
+  .bnrtitle {
+    font-size: 50px;
+    line-height: 65px;
+  }
+  .bnrcontent {
+    margin-top: 20px;
+  }
+  form {
+    margin-top: 20px;
+  }
+  footer.footer {
+    font-size: 12px;
+    padding-top: 50px;
+    height: 600px;
+  }
 }
